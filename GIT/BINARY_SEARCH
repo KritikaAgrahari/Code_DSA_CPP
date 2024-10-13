@@ -2,11 +2,9 @@
 class Solution {
 
 public:
-
     std::string destCity(std::vector<std::vector<std::string>>& paths) {
         std::unordered_set<std::string> startingCities;
 
-        
         // Add all starting cities to the set
 
         for (const auto& path : paths) {
