@@ -18,6 +18,7 @@ public:
         for (const auto& path : paths) {
 
             if (startingCities.find(path[1]) == startingCities.end()) {
+
                 return path[1];
             }
 
